@@ -7,15 +7,7 @@ class Neuron:
     possible_w2_vals = [-1, 1]
     possible_thresh_vals = [-2, -1, 0, 1, 2]
 
-    def __init__(self, input_matrix):
-        '''
-        Example input matrix for AND gate
-        |   x1  |   x2  |   y   |
-        |   -1  |   -1  |   0   |
-        |   -1  |   +1  |   0   |
-        |   +1  |   -1  |   0   |
-        |   +1  |   +1  |   1   |
-        '''   
+    def __init__(self, input_matrix):  
         self.input_matrix = input_matrix
 
     
